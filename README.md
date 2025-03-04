@@ -11,11 +11,17 @@
 
 ## Структура проекта
 music-analytics-tools/
+
 ├── api/
+
 │ ├── ApiSpotify.py # Работа с API Spotify
+
 │ └── GettingMusicInformation.py # Интеграция с Genius API
+
 ├── parsing/
+
 │ └── Playcount.py # Скрапинг через Selenium
+
 └── data/ # Папка с сохраненными данными (JSON)
 
 ## Компоненты
